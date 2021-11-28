@@ -1,0 +1,96 @@
+:root {
+	--Primary-paleBlue-color: hsl(225, 100%, 94%);
+	--Primary-brigthBlue-color: hsl(245, 75%, 52%);
+	--Neutral-veryPaleBlue-color: hsl(225, 100%, 98%);
+	--Neutral-desaturatedBlue-color: hsl(224, 23%, 55%);
+	--Neutral-darkBlue-color: hsl(223, 47%, 23%);
+}
+
+.ebug {
+	border: red solid 1px;
+}
+
+body {
+	background-color: var(--Primary-paleBlue-color);
+	font-family: 'Red Hat Display', sans-serif;
+	align-content: center;
+}
+
+img {
+	border-radius: 20px 20px 0 0;
+	width: 375px;
+	height: auto;
+}
+
+.card {
+	width: 375px;
+	margin: auto;
+	margin-top: 10%;
+	border-radius: 20px;
+	align-content: center;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.BTNsection {
+	display: flex;
+	flex-direction: column;
+}
+
+.pricingCard {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 20px;
+	background-color: var(--Neutral-veryPaleBlue-color);
+	height: 70px;
+	border-radius: 15px;
+}
+
+.musicIcon {
+	margin-left: 15px;
+	margin-top: 3%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+
+button {
+	margin: 10px 20px;
+}
+
+.paymentBTN {
+	z-index: 1;
+	background-color: var(--Primary-brigthBlue-color);
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	border: none;
+	border-radius: 10px;
+	height: 45px;
+	box-shadow: 0 15px 30px -6px var(--Neutral-desaturatedBlue-color);
+}
+
+.cancleBTN {
+	background-color: white;
+	color: gray;
+	font-size: 15px;
+	font-weight: 700;
+	border: none;
+	border-radius: 10px;
+	height: 45px;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
