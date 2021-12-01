@@ -4,6 +4,7 @@
 	--Neutral-veryPaleBlue-color: hsl(225, 100%, 98%);
 	--Neutral-desaturatedBlue-color: hsl(224, 23%, 55%);
 	--Neutral-darkBlue-color: hsl(223, 47%, 23%);
+	--Hover-state-color: #766cf1;
 }
 
 .ebug {
@@ -18,12 +19,12 @@ body {
 
 img {
 	border-radius: 20px 20px 0 0;
-	width: 375px;
+	width: 325px;
 	height: auto;
 }
 
 .card {
-	width: 375px;
+	width: 325px;
 	margin: auto;
 	margin-top: 10%;
 	border-radius: 20px;
@@ -32,11 +33,17 @@ img {
 }
 
 h1 {
+	padding: 20px 0 0 0;
 	text-align: center;
+	font-weight: 900;
 }
 
 p {
 	text-align: center;
+	color: gray;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 1.6;
 }
 
 .BTNsection {
@@ -49,16 +56,41 @@ p {
 	justify-content: space-between;
 	margin: 10px 20px;
 	background-color: var(--Neutral-veryPaleBlue-color);
-	height: 70px;
+	height: 75px;
 	border-radius: 15px;
 }
 
 .musicIcon {
 	margin-left: 15px;
-	margin-top: 3%;
+	margin-top: 4%;
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
+}
+
+.annualPlan {
+	padding-top: 6%;
+	margin-right: 8%;
+	font-weight: 900;
+	font-size: 14px;
+}
+
+#price {
+	color: gray;
+	font-weight: normal;
+}
+
+.changeLink {
+	color: var(--Primary-brigthBlue-color);
+	padding: 9% 6% 0 0;
+	text-decoration: underline;
+	font-weight: 900;
+	font-size: 13px;
+}
+
+.changeLink:hover {
+	color: var(--Hover-state-color);
+	cursor: pointer;
 }
 
 button {
@@ -69,22 +101,36 @@ button {
 	z-index: 1;
 	background-color: var(--Primary-brigthBlue-color);
 	color: white;
-	font-size: 15px;
+	font-size: 13px;
+	letter-spacing: 1px;
 	font-weight: 700;
 	border: none;
 	border-radius: 10px;
 	height: 45px;
-	box-shadow: 0 15px 30px -6px var(--Neutral-desaturatedBlue-color);
+	margin-top: 15px;
+	margin-bottom: 10px;
+	box-shadow: 0 7px 40px -10px var(--Primary-brigthBlue-color);
+}
+
+.paymentBTN:hover {
+	background-color: var(--Hover-state-color);
+	cursor: pointer;
 }
 
 .cancleBTN {
 	background-color: white;
 	color: gray;
 	font-size: 15px;
-	font-weight: 700;
+	font-weight: 900;
 	border: none;
 	border-radius: 10px;
 	height: 45px;
+	padding-bottom: 10px;
+}
+
+.cancleBTN:hover {
+	color: black;
+	cursor: pointer;
 }
 
 .attribution {
